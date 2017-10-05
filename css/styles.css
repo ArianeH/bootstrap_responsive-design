@@ -33,6 +33,16 @@ body {
   width: 40px;
 }
 
+.badge-popular {
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.badge-price {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
 .address {
   font-size: 80%;
   margin: 0px;
