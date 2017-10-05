@@ -46,12 +46,17 @@
   <header class="jumbotron">
     <div class="container">
       <div class="row row-header">
-        <div class="col-12 col-sm-8">
+        <div class="col-12 col-sm-6">
           <h1>Ristorante con Fusion</h1>
           <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
         </div>
-        <div class="col-12 col-sm-4 align-self-center">
+        <div class="col-12 col-sm-3 align-self-center">
           <img src="../img/logo.png" alt="logo" class="img-fluid">
+        </div>
+        <div class="col-12 col-sm-3 align-self-center">
+        <a href="#reservation-form" class="reservation-cta">
+            Reserve Table
+          </a>
         </div>
       </div>
     </div>
@@ -68,7 +73,7 @@
           <div class="media-body">
             <h2 class="mt-0">
               Uthappizza
-              <span class="badge badge-danger badge-popular">POPULAR</span>
+              <span class="badge badge-danger badge-indication">POPULAR</span>
               <span class="badge badge-pill badge-default badge-price">4.99 €</span>
             </h2>
             <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
@@ -84,11 +89,14 @@
       </div>
       <div class="col-sm-8 col-md-9">
         <div class="media">
-          <img src="../img/buffet.png" alt="" class="d-flex ml-3 img-thumbnail align-self-center">
           <div class="media-body">
-            <h2>Weekend Grand Buffet</h2>
+            <h2>
+              Weekend Grand Buffet
+              <span class="badge badge-danger badge-indication">NEW</span>
+            </h2>
             <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
           </div>
+          <img src="../img/buffet.png" alt="" class="d-flex ml-3 img-thumbnail align-self-center">
         </div>
       </div>
     </div>
@@ -109,7 +117,7 @@
       </div>
     </div>
 
-    <div class="row align-items-center">
+    <div class="row align-items-center" id="reservation-form">
       <div class="col-xs-12 offset-sm-2 col-sm-8">
         <div class="card card-reserve">
           <h3 class="card-header bg-warning text-white">Reserve a table</h3>
