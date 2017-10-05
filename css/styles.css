@@ -43,6 +43,15 @@ body {
   margin-left: 20px;
 }
 
+.card-reserve {
+  margin: 40px 0px;
+}
+
+.radio-field {
+  border: 1px solid grey;
+  background-color: transparent;
+}
+
 .address {
   font-size: 80%;
   margin: 0px;
